@@ -24,4 +24,4 @@ Chrome extension that toggles the CSS of a page.
 
 ## Known Issues
 
-- Going to scroll previous scroll position doesn't work correctly on pages with infinite scroll
+- Going to previous scroll position doesn't work correctly on pages with infinite scroll
