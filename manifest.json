@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Toggle CSS",
+  "version": "1.0",
+  "description": "Toggle enable/disable for all CSS on a page",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
